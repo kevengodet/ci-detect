@@ -1,6 +1,7 @@
 {
   "name": "keven/ci-detect",
   "type": "library",
+  "license": "MIT",
   "description": "Port of watson/ci-info NPM module for CI env discovery",
   "authors": [
     {
