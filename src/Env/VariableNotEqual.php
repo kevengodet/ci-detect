@@ -6,7 +6,7 @@ namespace Keven\CiDetect\Env;
 
 final class VariableNotEqual implements Rule
 {
-    public function __construct(private readonly string $name, private $ne) {}
+    public function __construct(private string $name, private $ne) {}
 
     public static function create(string|array $rawRule): ?Rule
     {

@@ -7,7 +7,7 @@ use Keven\CiDetect\Env\Matcher;
 final class Detector
 {
     public function __construct(
-        private readonly Matcher $matcher = new Matcher(),
+        private Matcher $matcher = new Matcher(),
         private ?array $vendors = null
     ) {
         $this->vendors ??= self::loadVendors();

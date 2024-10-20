@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Keven\CiDetect;
 
-final readonly class Vendor
+final class Vendor
 {
     public function __construct(
         public string $name,

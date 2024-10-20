@@ -6,7 +6,7 @@ namespace Keven\CiDetect\Env;
 
 final class NameAndValue implements Rule
 {
-    public function __construct(private readonly string $name, private $value) {}
+    public function __construct(private string $name, private $value) {}
 
     public static function create(string|array $rawRule): ?Rule
     {

@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Keven\CiDetect\Env;
 
-final readonly class AllOf implements Rule
+final class AllOf implements Rule
 {
     private array $rules;
 

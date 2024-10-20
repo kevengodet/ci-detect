@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Keven\CiDetect\Env;
 
-final readonly class VariableName implements Rule
+final class VariableName implements Rule
 {
     public function __construct(private string $name) {}
 

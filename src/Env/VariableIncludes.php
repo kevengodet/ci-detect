@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Keven\CiDetect\Env;
 
-final readonly class VariableIncludes implements Rule
+final class VariableIncludes implements Rule
 {
     public function __construct(private string $name, private string $includes) {}
 

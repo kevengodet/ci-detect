@@ -2,7 +2,7 @@
 
 namespace Keven\CiDetect;
 
-final readonly class CI
+final class CI
 {
     public function __construct(private ?Detector $detector = new Detector) {}
 
