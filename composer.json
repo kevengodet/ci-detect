@@ -1,0 +1,24 @@
+{
+  "name": "keven/ci-detect",
+  "type": "library",
+  "description": "Port of watson/ci-info NPM module for CI env discovery",
+  "authors": [
+    {
+      "name": "Keven Godet",
+      "email": "hello@keven.fr",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Keven\\CiDetect\\": "src"
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "ext-json": "*",
+    "phpunit/phpunit": "^11.4"
+  }
+}
